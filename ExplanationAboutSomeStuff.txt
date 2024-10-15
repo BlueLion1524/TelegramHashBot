@@ -1,0 +1,7 @@
+So, the source files for the docker are different than the other ones, because the docker is in Linux and I worked on Windows, so beware.
+Know that to run tests on the docker, you should first launch ADB as nodaemon.
+It should be like so: adb -a nodaemon server start
+Because that way the docker can connect to the device properly.
+In addition, when running the tests, it's best to start with telegram closed, or atleast only be in the main screen.
+Docker image attached so that you don't have to build it yourself.
+In the github repo you will also see some more explanations, primarily sources.
