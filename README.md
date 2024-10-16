@@ -118,5 +118,6 @@ To run the tests from inside the docker, which I don't really recommend but suit
     
 4.  **Inside the container's bash, run the tests:**
     ```bash
-    python3 source/BotTester.py
+    cd source
+    python3 BotTester.py
     ```
